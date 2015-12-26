@@ -1,6 +1,6 @@
 <?php require VIEW_ROOT . '/templates/header.php'; ?>
 	<?php if(!$page): ?>
-		<p>No page found. Sorry.</p>
+		<h2>No se han encontrado páginas por el momento.</h2>
 	<?php else: ?>
 		<div class="post">
 			<div class="post-img" style="background: rgba(0,0,0,.5) url('<?php echo BASE_URL; ?>/<?php echo e($page['ruta_imagen']); ?>') no-repeat center center; background-size: cover; max-width: 100%;"></div>
